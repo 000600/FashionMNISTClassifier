@@ -17,7 +17,7 @@ train_images = train_images / 255.0
 test_images = test_images / 255.0 
 
 # Define class map
-classes = ['T-shirt/top', 'Trouser', 'Pullover', 'Dress', 'Coat', 'Sandal', 'Shirt', 'Sneaker', 'Bag', 'Ankle boot']
+classes = ['T-shirt/top', 'Trouser', 'Pullover', 'Dress', 'Coat', 'Sandal', 'Shirt', 'Sneaker', 'Bag', 'Ankle Boot']
 
 # Initialize Adam optimizer
 opt = Adam(learning_rate = 0.001)
